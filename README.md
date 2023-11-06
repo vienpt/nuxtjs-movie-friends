@@ -8,16 +8,28 @@ Make sure to install the dependencies:
 
 ```bash
 # npm
-npm install
+npm add -D @nuxt/eslint-config eslint typescript vue-tsc
+npm add @nuxt/ui @nuxt/ui-pro @iconify-json/heroicons @iconify-json/simple-icons
+```
 
-# pnpm
-pnpm install
+Add eslint
 
-# yarn
-yarn install
+```bash
+# eslint
+.eslintignore
+.eslintrc.cjs
 
-# bun
-bun install
+# npm
+.npmrc
+
+# env
+.env.example
+
+# app config
+app.config.ts
+
+# update nuxt config
+
 ```
 
 ## Development Server
